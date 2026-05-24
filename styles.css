@@ -46,9 +46,10 @@ body {
   border-bottom: 3px solid var(--border-color);
   padding-bottom: 30px;
   margin-bottom: 15px;
+  margin-top: 30px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (width <= 576px) {
   .main-info,
   .contact_info_container {
     flex-direction: column;
@@ -66,6 +67,7 @@ body {
     margin-right: 0;
   }
 }
+
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
@@ -128,6 +130,7 @@ body {
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
+
 .intro {
   display: flex;
   justify-content: start;
@@ -164,6 +167,7 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
+
 .experiences {
   flex: 1 1 60%;
   margin-right: 50px;
